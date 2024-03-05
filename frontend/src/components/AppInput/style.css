@@ -1,0 +1,11 @@
+.app-input {
+  width: 98%;
+  height: 25px;
+  padding: 0.25rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.field {
+  margin: 0.5rem;
+}
