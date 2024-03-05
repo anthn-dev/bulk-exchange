@@ -1,7 +1,7 @@
-__pycache__
+**/__pycache__/**
 
 # dependencies
-/node_modules
+**/node_modules/**
 /.pnp
 .pnp.js
 
@@ -9,7 +9,8 @@ __pycache__
 /coverage
 
 # production
-/build
+**/build/**
+**/static/**
 
 # misc
 .DS_Store
