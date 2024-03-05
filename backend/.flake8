@@ -1,0 +1,12 @@
+[flake8]
+# Paths to exclude from checks
+exclude =
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py,
+    __init__.py,
+    venv
+
+# Coding style
+max-line-length = 120
