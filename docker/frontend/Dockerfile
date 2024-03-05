@@ -18,12 +18,8 @@ COPY . .
 # Build the React app
 WORKDIR /home/app/frontend/
 
-RUN npm install -g serve
-
-RUN npm run build
-
 # Expose the port that the app will run on
 EXPOSE 3000
 
 # Define the command to run the application
-CMD ["npm", "run", "deploy"]
+CMD ["npm", "start"]
